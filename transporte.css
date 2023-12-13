@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(240, 235, 205);
+    width: 100%;
+    height: auto;
+}
+main{
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 250, 214);
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    width: 100%;
+    height: 55px;
+    background-color: rgb(0, 0, 0);
+    
+   
+    
+
+}
+#logo{
+    width:100%;
+    height: 35px;
+    float: left;
+    text-align: center;
+    background-color:rgb(0, 0, 0);
+    margin-top: 10px;
+    
+    
+}
+#logo a{
+    font-size: 25px;
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+nav{
+    width: 100%;
+    height: auto;
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    background-color: rgb(247, 247, 144);
+}
+
+
+.menu{
+    width: 100%;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    list-style: none;
+    float: left ;
+    font-size: large;
+    border: 1px solid rgb(0, 0, 0);
+}
+.menu:hover{
+    background-color:yellow;
+    color: rgb(0, 0, 0);
+}
+
+#servicios{
+    width: 90%;
+    height: auto;
+    display:grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top:100px;
+    margin-left: 5% ;
+    
+  
+}    
+#servicios article{
+    width: 100%;
+    height: auto; 
+    margin-top: 10px;
+    
+    
+}
+hr{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border-color: white;
+    color: white;
+}
+
+h3{
+    text-align: center;
+    margin-top: 40px;
+    color:rgb(85, 85, 71);
+   
+    
+}
+.imgservicios{
+    width: 70%;
+    height: 200px;
+    float: right;
+}
+
+
+.imgpersonalizados1{
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+}
+
+footer{
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+    margin-top:300px;
+    position: absolute;
+
+}
+#logo2{
+    width: 200px;
+    height: 90px;
+    float: left;
+    text-align: center;
+    background-color:#000;
+    color: white;
+    margin-left: 25px;
+}
+#logo2 h2{
+    margin-top: 30px;
+}
+#redes{
+    width: 33%;
+    height: 90px;
+    background-color:#000;
+    color: white;
+    margin-left: 67%;
+    
+
+}
+.iconos img{
+    width: 6%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20%;
+    float: left;
+    filter: invert(100%);
+}
+#descripciontransporte{
+    width: 40%;
+    height: auto;
+    display:grid;
+   
+    margin-top:10px;
+   
+    margin-left: 5%;
+    
+    
+    
+    
+    
+}
+#divtransporte{
+    width:100%;
+    height: auto;
+}
+#imginfocontacto{
+    width: 40%;
+    height: auto;
+    display:grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    float: right;
+  
+  
+}
+#imgpersonalizado{
+    width: 85%;
+    height: auto;
+    margin-top: 10%;
+ }
+
+#imgpersonalizado img{
+    width: 100%;
+    height: auto;
+}
+#solicitaInfo{
+    width: 85%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    
+    border: solid black;
+    float: right;
+    margin-top: 10%;
+}
+#solicitaInfo h4{
+    margin-left: 5%;
+    font-size: 20px;
+}
+#solicitaInfo p{
+    margin-left:5% ;
+}
+h4{
+    color: rgb(145, 22, 6);
+ }
